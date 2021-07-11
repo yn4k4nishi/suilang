@@ -1,5 +1,5 @@
 make --dry-run --keep-going --print-directory
 make: Entering directory '/home/suisui/workspace/suilang'
-gcc src/lexical_analysis.c include/token.h -Wall -o main.o
+gcc src/main.c src/lexical_analysis.c include/common.h include/token.h -Wall -o sui-compiler.o
 make: Leaving directory '/home/suisui/workspace/suilang'
  

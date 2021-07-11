@@ -1,7 +1,6 @@
 #include <stdio.h>
+#include "../include/common.h"
 
-int main(){
-	printf("Lexical Analysis");
-
-	return 0;
+void lexical_analysis(){
+	printf("Lexical Analysis.\n");
 }

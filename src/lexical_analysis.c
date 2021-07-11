@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-#include "../include/token.h"
-
 int main(){
-    printf("Lexical Analysis ...");
+	printf("Lexical Analysis");
 
-    return 0;
+	return 0;
 }

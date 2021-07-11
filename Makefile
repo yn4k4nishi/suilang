@@ -1,9 +1,9 @@
-CC := gcc
+CC     := gcc
 CFLAGS := -Wall
-
 SOURCE := src/*.c include/*.h
 
-all : a
+all : $(wildcard $(SOURCE))
+	$(CC) $(wildcard $(SOURCE)) $(CFLAGS) -o main.o
 
-a : $(SOURCE)
-    $(CC) $(SOURCE) $(CFLAGS)
+clean :
+	rm *.o

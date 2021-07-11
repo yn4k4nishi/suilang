@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/suisui/workspace/suilang'
+echo src/lexical_analysis.c
+make: Leaving directory '/home/suisui/workspace/suilang'
+ 

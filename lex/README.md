@@ -1,16 +1,35 @@
 # 字句解析
 
 ```bash
-$ flex sample.l
-$ gcc -o sample lex.yy.c
-$ echo "abc 123\n 1. 3.2\n def" | ./sample
-Executing lexical analyzer.
-ID: abc
-Integer: 123 is parsed as 123
-\ID: n
-Float: 1. is parsed as 1.000000
-Float: 3.2 is parsed as 3.200000
-\ID: n
-ID: def
-Reached the end-of-file (1 lines).
+$ make
+$ ./sample ../example/main.sui
+ID        : process
+OPERATOR  : :
+ID        : print
+OPERATOR  : >>
+STRING    : "Hello world"
+TYPE      : num
+ID        : a
+OPERATOR  : =
+NUMBER    : 1
+OPERATOR  : +
+IMAGINE   : j
+TYPE      : num
+ID        : b
+OPERATOR  : =
+ID        : j2
+TYPE      : num
+ID        : c
+OPERATOR  : =
+NUMBER    : 0
+ID        : c
+OPERATOR  : =
+ID        : a
+OPERATOR  : +
+ID        : b
+ID        : print
+OPERATOR  : >>
+ID        : c
+
+END 
 ```

@@ -1,12 +1,12 @@
 
 process:
-    console >> "Hello world";
+    print >> "Hello world"
 
-    [int] a = 1 ;
-    [int] b = 2 ;
-    [int] c = 0 ;
+    num a = 1 + j
+    num b = j2
+    num c = 0
 
-    c = a + b ;
+    c = a + b
 
-    console >> c ;
+    print >> c
 

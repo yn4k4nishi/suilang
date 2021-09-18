@@ -2,7 +2,7 @@
 my programming language
 
 ## TODO
-- [ ] 字句解析
+- [ ] 字句解析([lex](lex))
 - [ ] 構文解析
 - [ ] 意味解析
 - [ ] 中間コード作成

@@ -1,8 +1,8 @@
 # suilang
 my programming language
 
-## TODO
-- [ ] 字句解析([lex](lex))
+## TODO ![]( https://progress-bar.dev/1/?scale=7&suffix=/7)
+- [x] 字句解析([lex](lex))
 - [ ] 構文解析
 - [ ] 意味解析
 - [ ] 中間コード作成

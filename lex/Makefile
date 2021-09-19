@@ -1,6 +1,6 @@
-lex : analysis.l
-	flex analysis.l
-	gcc -o analysis lex.yy.c
+lex : scanner.l
+	flex scanner.l
+	gcc -o scanner lex.yy.c
 
 clean : 
-	rm analysis
+	rm scanner

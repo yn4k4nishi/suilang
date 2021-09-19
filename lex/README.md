@@ -2,7 +2,7 @@
 
 ```bash
 $ make
-$ ./analysis ../example/main.sui
+$ ./scanner ../example/main.sui
 ID        : process
 OPERATOR  : :
 ID        : print

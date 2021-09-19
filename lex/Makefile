@@ -1,6 +1,6 @@
-lex : sample.l
-	flex sample.l
-	gcc -o sample lex.yy.c
+lex : analysis.l
+	flex analysis.l
+	gcc -o analysis lex.yy.c
 
-clear : 
-	rm sample
+clean : 
+	rm analysis
